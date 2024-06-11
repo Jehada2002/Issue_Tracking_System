@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Issue</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="add_issue.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Add Issue</h2>
+        <div class="form-box">
+            <form id="addIssueForm" method="POST" action="add_issue.php">
+                <label for="description">Description:</label><br>
+                <textarea id="description" name="description" required></textarea><br>
+                <label for="severity">Severity:</label><br>
+                <select id="severity" name="severity" required>
+                    <option value="">Select</option>
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select><br>
+                <button type="submit">Add Issue</button>
+            </form>
+            <a href="dashboard.php"><button>Back to Dashboard</button></a>
+        </div>
+    </div>
+</body>
+</html>

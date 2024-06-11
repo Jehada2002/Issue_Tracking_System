@@ -1,0 +1,31 @@
+.container {
+    width: 75%;
+    margin: 30px auto;
+    padding: 50px;
+    background-color: #FFF7E6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #D7CCC8;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    color: #5D4037;
+}
+
+th {
+    background-color: #D7CCC8;
+}
+
+tr:nth-child(even) {
+    background-color: #F5F5F5;
+}
